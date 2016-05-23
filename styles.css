@@ -1,0 +1,126 @@
+
+/* Jeff's Headings CSS */
+
+
+BODY {
+   margin-left: 0;
+   margin-top: 0;
+   margin-right: 0;
+}
+
+BODY, TD, TH {
+   font-family: "Arial";
+   font-size: 11pt;
+   line-height: 1.35;
+}
+
+A:link {
+   coloxr: "#0000FF";
+   colorx: "#8caae7"; /* MS cornflower */
+   color: "#698Fe0"; /* darker cornflower */
+}
+A:active {
+   color: "#00ff00";
+}
+A:visited {
+   color: "400080";
+}
+
+/* the header */
+TABLE.jHeader {
+   FILTER: "progid:DXImageTransform.Microsoft.Gradient(
+                  startColorStr='#400080', 
+                  endColorStrx='#6487db', 
+                  endColorStr='#cccccc', 
+                  gradientType='1')"
+}
+P.jHeader {
+   margin-left: 15;
+   margin-top: 18;
+   margin-bottom: 6;
+   font-size: 14pt;
+   font-family: "Verdana";
+   xfont-weight: bold;
+   color: "white";
+}
+
+/* everything after the header */
+.jBody {
+   margin-left:  70;
+   margin-right: 70;
+}
+.pBody {
+   margin-top:   20;
+   margin-left:  70;
+   margin-right: 20;
+   font-size:    10pt;
+   line-height:  1.1;
+}
+.jFullWidth {
+   margin-left:  -70;
+   margin-right: -70;
+}
+H1, H2 {
+   margin-left: -55;
+}
+
+.outsideMargin {
+   margin-left: -55;
+}
+
+H1, H2, H3, H4, H5, H6 {
+   font-family: "Verdana";
+   colorx: "#8caae7"; /* MS cornflower */
+   colorx: "#698Fe0"; /* darker cornflower */
+   color: "#400080"; /* purple */
+}
+
+
+H1 {
+   font-size: 14pt;
+}
+H2 {
+   margin-top: 30;
+   font-weight: xnormal;
+   xtext-decoration: underline;
+   font-size: 11pt;
+}
+H3 {
+   margin-left: -55;
+   font-size: 10pt;
+}
+H4 {
+   margin-bottom: -17;
+   font-size: 10pt;
+}
+H5, H6 {
+   margin-bottom: -17;
+}
+
+.navLink {
+   text-decoration: none;
+}
+
+.listUnderPara {
+   margin-top: -17;
+}
+.listAfterPara {
+   margin-top: -17;
+}
+.listBelowPara {
+   margin-top: -17;
+}
+
+HR {
+   margin-top: 20;
+}
+
+.help {
+   color: green;
+   text-decoration: underline;
+}
+.hilite    { background-color: #ccffcc; font-weight: bold; }
+.hipurple  { background-color: #ccccff; font-weight: bold; }
+.higreen   { background-color: #ccffcc; font-weight: bold; }
+.hiyellow  { background-color: #ffff99; font-weight: bold; }
+
